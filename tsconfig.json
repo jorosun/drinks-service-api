@@ -1,0 +1,25 @@
+{
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "strict": true,
+    "target": "ES2022",
+    "module": "ES2015",
+    "moduleResolution": "node",
+    "rootDir": "./src",
+    "outDir": "./build",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "ts-node": {
+    "esm": true,
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}
